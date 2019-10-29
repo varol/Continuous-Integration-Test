@@ -12,7 +12,18 @@
 		F96DDD2123683E8D00BEAE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96DDD1F23683E8D00BEAE71 /* Main.storyboard */; };
 		F96DDD2323683E9000BEAE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96DDD2223683E9000BEAE71 /* Assets.xcassets */; };
 		F96DDD2623683E9000BEAE71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96DDD2423683E9000BEAE71 /* LaunchScreen.storyboard */; };
+		F96DDD3623685A4E00BEAE71 /* Continuous_Integration_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DDD3523685A4E00BEAE71 /* Continuous_Integration_TestTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F96DDD3823685A4E00BEAE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F96DDD1023683E8D00BEAE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96DDD1723683E8D00BEAE71;
+			remoteInfo = "Continuous Integration Test";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F96DDD1823683E8D00BEAE71 /* Continuous Integration Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Continuous Integration Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		F96DDD2223683E9000BEAE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96DDD2523683E9000BEAE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96DDD2723683E9000BEAE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96DDD3323685A4E00BEAE71 /* Continuous Integration TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Continuous Integration TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96DDD3523685A4E00BEAE71 /* Continuous_Integration_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continuous_Integration_TestTests.swift; sourceTree = "<group>"; };
+		F96DDD3723685A4E00BEAE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F96DDD1523683E8D00BEAE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96DDD3023685A4E00BEAE71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F96DDD1A23683E8D00BEAE71 /* Continuous Integration Test */,
+				F96DDD3423685A4E00BEAE71 /* Continuous Integration TestTests */,
 				F96DDD1923683E8D00BEAE71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				F96DDD1823683E8D00BEAE71 /* Continuous Integration Test.app */,
+				F96DDD3323685A4E00BEAE71 /* Continuous Integration TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				F96DDD2723683E9000BEAE71 /* Info.plist */,
 			);
 			path = "Continuous Integration Test";
+			sourceTree = "<group>";
+		};
+		F96DDD3423685A4E00BEAE71 /* Continuous Integration TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F96DDD3523685A4E00BEAE71 /* Continuous_Integration_TestTests.swift */,
+				F96DDD3723685A4E00BEAE71 /* Info.plist */,
+			);
+			path = "Continuous Integration TestTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = F96DDD1823683E8D00BEAE71 /* Continuous Integration Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F96DDD3223685A4E00BEAE71 /* Continuous Integration TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96DDD3A23685A4E00BEAE71 /* Build configuration list for PBXNativeTarget "Continuous Integration TestTests" */;
+			buildPhases = (
+				F96DDD2F23685A4E00BEAE71 /* Sources */,
+				F96DDD3023685A4E00BEAE71 /* Frameworks */,
+				F96DDD3123685A4E00BEAE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96DDD3923685A4E00BEAE71 /* PBXTargetDependency */,
+			);
+			name = "Continuous Integration TestTests";
+			productName = "Continuous Integration TestTests";
+			productReference = F96DDD3323685A4E00BEAE71 /* Continuous Integration TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +146,10 @@
 				TargetAttributes = {
 					F96DDD1723683E8D00BEAE71 = {
 						CreatedOnToolsVersion = 10.3;
+					};
+					F96DDD3223685A4E00BEAE71 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F96DDD1723683E8D00BEAE71;
 					};
 				};
 			};
@@ -113,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				F96DDD1723683E8D00BEAE71 /* Continuous Integration Test */,
+				F96DDD3223685A4E00BEAE71 /* Continuous Integration TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F96DDD3123685A4E00BEAE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +202,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F96DDD2F23685A4E00BEAE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96DDD3623685A4E00BEAE71 /* Continuous_Integration_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F96DDD3923685A4E00BEAE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96DDD1723683E8D00BEAE71 /* Continuous Integration Test */;
+			targetProxy = F96DDD3823685A4E00BEAE71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F96DDD1F23683E8D00BEAE71 /* Main.storyboard */ = {
@@ -314,6 +392,46 @@
 			};
 			name = Release;
 		};
+		F96DDD3B23685A4E00BEAE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP6Y3828G;
+				INFOPLIST_FILE = "Continuous Integration TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Varol.Continuous-Integration-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
+			};
+			name = Debug;
+		};
+		F96DDD3C23685A4E00BEAE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP6Y3828G;
+				INFOPLIST_FILE = "Continuous Integration TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Varol.Continuous-Integration-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +449,15 @@
 			buildConfigurations = (
 				F96DDD2B23683E9000BEAE71 /* Debug */,
 				F96DDD2C23683E9000BEAE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96DDD3A23685A4E00BEAE71 /* Build configuration list for PBXNativeTarget "Continuous Integration TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96DDD3B23685A4E00BEAE71 /* Debug */,
+				F96DDD3C23685A4E00BEAE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
